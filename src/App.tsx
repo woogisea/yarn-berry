@@ -1,8 +1,10 @@
 import styled from "styled-components";
 const App = () => {
-  return <div>1</div>;
+  return <Wrapper>1</Wrapper>;
 };
 
 export default App;
 
-const Wrapper = styled.div``;
+const Wrapper = styled.div`
+  color: red;
+`;

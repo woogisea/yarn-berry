@@ -1,10 +1,15 @@
-import styled from "styled-components";
+import { ThemeProvider } from "styled-components";
+import Router from "./components/common/Router";
+import GlobalStyle from "./styles/globalStyle";
+import theme from "./styles/theme";
+
 const App = () => {
-  return <Wrapper>1</Wrapper>;
+  return (
+    <ThemeProvider theme={theme}>
+      <GlobalStyle />
+      <Router />
+    </ThemeProvider>
+  );
 };
 
 export default App;
-
-const Wrapper = styled.div`
-  color: red;
-`;

@@ -3,7 +3,7 @@ import styled from 'styled-components';
 const Home = () => {
   return (
     <Wrapper>
-      <Title>1</Title>
+      <Title>안녕하세요</Title>
     </Wrapper>
   );
 };

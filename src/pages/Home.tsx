@@ -1,12 +1,11 @@
+import React from 'react';
 import styled from 'styled-components';
 
-const Home = () => {
-  return (
-    <Wrapper>
-      <Title>안녕하세요</Title>
-    </Wrapper>
-  );
-};
+const Home = () => (
+  <Wrapper>
+    <Title>안녕하세요</Title>
+  </Wrapper>
+);
 
 export default Home;
 

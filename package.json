@@ -24,12 +24,14 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "format": "prettier --cache --write .",
     "postinstall": "husky install"
   },
   "lint-staged": {
     "*.tsx": "eslint --fix",
     "*.ts": "eslint --fix"
+  },
+  "hooks": {
+    "pre-commit": "prettier --check"
   },
   "eslintConfig": {},
   "browserslist": {

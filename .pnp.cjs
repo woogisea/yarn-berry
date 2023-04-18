@@ -63,7 +63,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["stylelint-config-prettier", "virtual:e192ad67095763c5d16ce3af10b2d5885e3e4aef581170bbece3b120eeea45f052b9c7de194b1462cfcbdeb2ddc63a7ae113f66ba7c9272db3ab18225398c197#npm:9.0.5"],\
             ["stylelint-config-recommended", "virtual:e192ad67095763c5d16ce3af10b2d5885e3e4aef581170bbece3b120eeea45f052b9c7de194b1462cfcbdeb2ddc63a7ae113f66ba7c9272db3ab18225398c197#npm:12.0.0"],\
             ["stylelint-config-styled-components", "npm:0.1.1"],\
-            ["stylelint-processor-styled-components", "npm:1.10.0"],\
             ["typescript", "patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=23ec76"],\
             ["web-vitals", "npm:2.1.4"]\
           ],\
@@ -17330,19 +17329,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
-      ["stylelint-processor-styled-components", [\
-        ["npm:1.10.0", {\
-          "packageLocation": "./.yarn/cache/stylelint-processor-styled-components-npm-1.10.0-17c51326cc-3d2ac5e1ae.zip/node_modules/stylelint-processor-styled-components/",\
-          "packageDependencies": [\
-            ["stylelint-processor-styled-components", "npm:1.10.0"],\
-            ["@babel/parser", "npm:7.21.4"],\
-            ["@babel/traverse", "npm:7.21.4"],\
-            ["micromatch", "npm:4.0.5"],\
-            ["postcss", "npm:7.0.39"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
       ["sucrase", [\
         ["npm:3.32.0", {\
           "packageLocation": "./.yarn/cache/sucrase-npm-3.32.0-77d3fb5106-79f760aef5.zip/node_modules/sucrase/",\
@@ -19128,7 +19114,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["stylelint-config-prettier", "virtual:e192ad67095763c5d16ce3af10b2d5885e3e4aef581170bbece3b120eeea45f052b9c7de194b1462cfcbdeb2ddc63a7ae113f66ba7c9272db3ab18225398c197#npm:9.0.5"],\
             ["stylelint-config-recommended", "virtual:e192ad67095763c5d16ce3af10b2d5885e3e4aef581170bbece3b120eeea45f052b9c7de194b1462cfcbdeb2ddc63a7ae113f66ba7c9272db3ab18225398c197#npm:12.0.0"],\
             ["stylelint-config-styled-components", "npm:0.1.1"],\
-            ["stylelint-processor-styled-components", "npm:1.10.0"],\
             ["typescript", "patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=23ec76"],\
             ["web-vitals", "npm:2.1.4"]\
           ],\

@@ -51,7 +51,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/core@npm:^7.1.0, @babel/core@npm:^7.11.1, @babel/core@npm:^7.12.3, @babel/core@npm:^7.16.0, @babel/core@npm:^7.7.2, @babel/core@npm:^7.8.0":
+"@babel/core@npm:^7.1.0, @babel/core@npm:^7.11.1, @babel/core@npm:^7.12.3, @babel/core@npm:^7.16.0, @babel/core@npm:^7.17.9, @babel/core@npm:^7.7.2, @babel/core@npm:^7.8.0":
   version: 7.21.4
   resolution: "@babel/core@npm:7.21.4"
   dependencies:
@@ -2385,6 +2385,18 @@ __metadata:
   dependencies:
     "@sinonjs/commons": ^1.7.0
   checksum: 09b5a158ce013a6c37613258bad79ca4efeb99b1f59c41c73cca36cac00b258aefcf46eeea970fccf06b989414d86fe9f54c1102272c0c3bdd51a313cea80949
+  languageName: node
+  linkType: hard
+
+"@stylelint/postcss-css-in-js@npm:^0.38.0":
+  version: 0.38.0
+  resolution: "@stylelint/postcss-css-in-js@npm:0.38.0"
+  dependencies:
+    "@babel/core": ^7.17.9
+  peerDependencies:
+    postcss: ">=7.0.0"
+    postcss-syntax: ">=0.36.2"
+  checksum: efb32b4aab38a8fcebc07a26bc49afe92e3d9dea63547fd4bb7e2a4a42c4f7534173e696ba61f5e4030961081f210ae52aea3b4829a2fe67acd3c9dc14c91b0f
   languageName: node
   linkType: hard
 
@@ -14393,6 +14405,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "yarn-berry@workspace:."
   dependencies:
+    "@stylelint/postcss-css-in-js": ^0.38.0
     "@testing-library/jest-dom": ^5.16.5
     "@testing-library/react": ^13.4.0
     "@testing-library/user-event": ^13.5.0

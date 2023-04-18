@@ -40,6 +40,10 @@
   },
   "packageManager": "yarn@3.5.0",
   "devDependencies": {
-    "@types/styled-components": "^5"
+    "@types/prettier": "^2",
+    "@types/styled-components": "^5",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.7"
   }
 }

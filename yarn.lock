@@ -11058,6 +11058,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"postcss-syntax@npm:^0.36.2":
+  version: 0.36.2
+  resolution: "postcss-syntax@npm:0.36.2"
+  peerDependencies:
+    postcss: ">=5.0.0"
+  checksum: 812baee602910903b8b77391583721613951d87dbc8baff140879069ff98423392675c4ddfdf073418f4a699ee5d4dd020914bad07504c62f9f333211bf979b8
+  languageName: node
+  linkType: hard
+
 "postcss-unique-selectors@npm:^5.1.1":
   version: 5.1.1
   resolution: "postcss-unique-selectors@npm:5.1.1"
@@ -14427,6 +14436,7 @@ __metadata:
     husky: ^8.0.3
     lint-staged: ^13.2.1
     postcss: ^8.4.22
+    postcss-syntax: ^0.36.2
     prettier: ^2.8.7
     react: ^18.2.0
     react-dom: ^18.2.0

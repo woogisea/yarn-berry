@@ -28,6 +28,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
+            ["@stylelint/postcss-css-in-js", "virtual:e192ad67095763c5d16ce3af10b2d5885e3e4aef581170bbece3b120eeea45f052b9c7de194b1462cfcbdeb2ddc63a7ae113f66ba7c9272db3ab18225398c197#npm:0.38.0"],\
             ["@testing-library/jest-dom", "npm:5.16.5"],\
             ["@testing-library/react", "virtual:e192ad67095763c5d16ce3af10b2d5885e3e4aef581170bbece3b120eeea45f052b9c7de194b1462cfcbdeb2ddc63a7ae113f66ba7c9272db3ab18225398c197#npm:13.4.0"],\
             ["@testing-library/user-event", "virtual:e192ad67095763c5d16ce3af10b2d5885e3e4aef581170bbece3b120eeea45f052b9c7de194b1462cfcbdeb2ddc63a7ae113f66ba7c9272db3ab18225398c197#npm:13.5.0"],\
@@ -49,6 +50,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-simple-import-sort", "virtual:e192ad67095763c5d16ce3af10b2d5885e3e4aef581170bbece3b120eeea45f052b9c7de194b1462cfcbdeb2ddc63a7ae113f66ba7c9272db3ab18225398c197#npm:10.0.0"],\
             ["husky", "npm:8.0.3"],\
             ["lint-staged", "npm:13.2.1"],\
+            ["postcss", "npm:8.4.22"],\
+            ["postcss-syntax", "virtual:e192ad67095763c5d16ce3af10b2d5885e3e4aef581170bbece3b120eeea45f052b9c7de194b1462cfcbdeb2ddc63a7ae113f66ba7c9272db3ab18225398c197#npm:0.36.2"],\
             ["prettier", "npm:2.8.7"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:e192ad67095763c5d16ce3af10b2d5885e3e4aef581170bbece3b120eeea45f052b9c7de194b1462cfcbdeb2ddc63a7ae113f66ba7c9272db3ab18225398c197#npm:18.2.0"],\
@@ -4116,6 +4119,33 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@sinonjs/fake-timers", "npm:8.1.0"],\
             ["@sinonjs/commons", "npm:1.8.6"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@stylelint/postcss-css-in-js", [\
+        ["npm:0.38.0", {\
+          "packageLocation": "./.yarn/cache/@stylelint-postcss-css-in-js-npm-0.38.0-58daff2802-efb32b4aab.zip/node_modules/@stylelint/postcss-css-in-js/",\
+          "packageDependencies": [\
+            ["@stylelint/postcss-css-in-js", "npm:0.38.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:e192ad67095763c5d16ce3af10b2d5885e3e4aef581170bbece3b120eeea45f052b9c7de194b1462cfcbdeb2ddc63a7ae113f66ba7c9272db3ab18225398c197#npm:0.38.0", {\
+          "packageLocation": "./.yarn/__virtual__/@stylelint-postcss-css-in-js-virtual-0a04252d48/0/cache/@stylelint-postcss-css-in-js-npm-0.38.0-58daff2802-efb32b4aab.zip/node_modules/@stylelint/postcss-css-in-js/",\
+          "packageDependencies": [\
+            ["@stylelint/postcss-css-in-js", "virtual:e192ad67095763c5d16ce3af10b2d5885e3e4aef581170bbece3b120eeea45f052b9c7de194b1462cfcbdeb2ddc63a7ae113f66ba7c9272db3ab18225398c197#npm:0.38.0"],\
+            ["@babel/core", "npm:7.21.4"],\
+            ["@types/postcss", null],\
+            ["@types/postcss-syntax", null],\
+            ["postcss", "npm:8.4.22"],\
+            ["postcss-syntax", "virtual:e192ad67095763c5d16ce3af10b2d5885e3e4aef581170bbece3b120eeea45f052b9c7de194b1462cfcbdeb2ddc63a7ae113f66ba7c9272db3ab18225398c197#npm:0.36.2"]\
+          ],\
+          "packagePeers": [\
+            "@types/postcss-syntax",\
+            "@types/postcss",\
+            "postcss-syntax",\
+            "postcss"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -15126,6 +15156,48 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["postcss-syntax", [\
+        ["npm:0.36.2", {\
+          "packageLocation": "./.yarn/cache/postcss-syntax-npm-0.36.2-ef243fe3b7-812baee602.zip/node_modules/postcss-syntax/",\
+          "packageDependencies": [\
+            ["postcss-syntax", "npm:0.36.2"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:e192ad67095763c5d16ce3af10b2d5885e3e4aef581170bbece3b120eeea45f052b9c7de194b1462cfcbdeb2ddc63a7ae113f66ba7c9272db3ab18225398c197#npm:0.36.2", {\
+          "packageLocation": "./.yarn/__virtual__/postcss-syntax-virtual-6bd1f7bb9e/0/cache/postcss-syntax-npm-0.36.2-ef243fe3b7-812baee602.zip/node_modules/postcss-syntax/",\
+          "packageDependencies": [\
+            ["postcss-syntax", "virtual:e192ad67095763c5d16ce3af10b2d5885e3e4aef581170bbece3b120eeea45f052b9c7de194b1462cfcbdeb2ddc63a7ae113f66ba7c9272db3ab18225398c197#npm:0.36.2"],\
+            ["@types/postcss", null],\
+            ["@types/postcss-html", null],\
+            ["@types/postcss-jsx", null],\
+            ["@types/postcss-less", null],\
+            ["@types/postcss-markdown", null],\
+            ["@types/postcss-scss", null],\
+            ["postcss", "npm:8.4.22"],\
+            ["postcss-html", null],\
+            ["postcss-jsx", null],\
+            ["postcss-less", null],\
+            ["postcss-markdown", null],\
+            ["postcss-scss", null]\
+          ],\
+          "packagePeers": [\
+            "@types/postcss-html",\
+            "@types/postcss-jsx",\
+            "@types/postcss-less",\
+            "@types/postcss-markdown",\
+            "@types/postcss-scss",\
+            "@types/postcss",\
+            "postcss-html",\
+            "postcss-jsx",\
+            "postcss-less",\
+            "postcss-markdown",\
+            "postcss-scss",\
+            "postcss"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["postcss-unique-selectors", [\
         ["npm:5.1.1", {\
           "packageLocation": "./.yarn/cache/postcss-unique-selectors-npm-5.1.1-ed729740f2-637e7b786e.zip/node_modules/postcss-unique-selectors/",\
@@ -19021,6 +19093,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["yarn-berry", "workspace:."],\
+            ["@stylelint/postcss-css-in-js", "virtual:e192ad67095763c5d16ce3af10b2d5885e3e4aef581170bbece3b120eeea45f052b9c7de194b1462cfcbdeb2ddc63a7ae113f66ba7c9272db3ab18225398c197#npm:0.38.0"],\
             ["@testing-library/jest-dom", "npm:5.16.5"],\
             ["@testing-library/react", "virtual:e192ad67095763c5d16ce3af10b2d5885e3e4aef581170bbece3b120eeea45f052b9c7de194b1462cfcbdeb2ddc63a7ae113f66ba7c9272db3ab18225398c197#npm:13.4.0"],\
             ["@testing-library/user-event", "virtual:e192ad67095763c5d16ce3af10b2d5885e3e4aef581170bbece3b120eeea45f052b9c7de194b1462cfcbdeb2ddc63a7ae113f66ba7c9272db3ab18225398c197#npm:13.5.0"],\
@@ -19042,6 +19115,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-simple-import-sort", "virtual:e192ad67095763c5d16ce3af10b2d5885e3e4aef581170bbece3b120eeea45f052b9c7de194b1462cfcbdeb2ddc63a7ae113f66ba7c9272db3ab18225398c197#npm:10.0.0"],\
             ["husky", "npm:8.0.3"],\
             ["lint-staged", "npm:13.2.1"],\
+            ["postcss", "npm:8.4.22"],\
+            ["postcss-syntax", "virtual:e192ad67095763c5d16ce3af10b2d5885e3e4aef581170bbece3b120eeea45f052b9c7de194b1462cfcbdeb2ddc63a7ae113f66ba7c9272db3ab18225398c197#npm:0.36.2"],\
             ["prettier", "npm:2.8.7"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:e192ad67095763c5d16ce3af10b2d5885e3e4aef581170bbece3b120eeea45f052b9c7de194b1462cfcbdeb2ddc63a7ae113f66ba7c9272db3ab18225398c197#npm:18.2.0"],\
